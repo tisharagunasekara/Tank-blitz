@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/instruction"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/lose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:srcCompat="@drawable/losetank"
+        tools:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/win"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:srcCompat="@drawable/wintank"
+         />
+
+    <TextView
+        android:id="@+id/highScoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/high_score_0"
+        android:textColor="@color/material_dynamic_neutral10"
+        android:textSize="18sp"
+        android:visibility="invisible"
+        tools:visibility="gone" />
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="155dp"
+        android:layout_height="44dp"
+        android:layout_margin="15dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/score"
+        android:textAlignment="center"
+        android:textColorHighlight="@color/material_dynamic_neutral10"
+        android:textSize="28sp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="251dp"
+        android:layout_height="172dp"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="347dp"
+        android:layout_height="271dp"
+        app:srcCompat="@drawable/ftank" />
+
+    <Button
+        android:id="@+id/instbtn"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="@string/game_help"
+        android:textColor="#212121"
+        android:textSize="15sp"
+        app:backgroundTint="@color/button" />
+
+    <Button
+        android:id="@+id/startbtn"
+        android:layout_width="168dp"
+        android:layout_height="64dp"
+        android:layout_margin="15dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="@string/startbtn"
+        android:textColor="#212121"
+        android:textSize="20sp"
+        app:backgroundTint="@color/button" />
+
+
+</LinearLayout>

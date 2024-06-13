@@ -1,0 +1,10 @@
+<resources>
+    <string name="score">Score:0</string>
+    <string name="app_name">Tank Blitz</string>
+    <string name="startbtn">START</string>
+    <string name="letst_play">Letst\' Play</string>
+    <string name="high_score_0">High Score: 0</string>
+    <string name="let_s_started">Let\'s Started</string>
+    <string name="game_help">GAME HELP</string>
+    <string name="let_s_play">LET\'S PLAY</string>
+</resources>

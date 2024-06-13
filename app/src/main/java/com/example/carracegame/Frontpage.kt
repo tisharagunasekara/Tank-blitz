@@ -1,0 +1,17 @@
+package com.example.carracegame
+import android.content.Intent
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import android.widget.Button
+
+class Frontpage : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_frontpage)
+        val welcomeButton:Button = findViewById(R.id.fontbtn)
+        welcomeButton.setOnClickListener{
+            val intent = Intent(this,MainActivity::class.java)
+            startActivity(intent)
+        }
+    }
+}
